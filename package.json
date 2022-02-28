@@ -2,12 +2,12 @@
   "name": "proj",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "myreact": "cd layout && npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "dev": "concurrently --kill-outhers-on-fail \"npm run server\" \"npm run myreact\" "
+    "dev": "concurrently --kill-others-on-fail \"npm run start\" \"npm run myreact\" "
   },
   "author": "",
   "license": "ISC",
